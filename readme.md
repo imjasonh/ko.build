@@ -1,22 +1,15 @@
-# [Nextra](https://nextra.vercel.app)
+# [ko.build](https://ko.build)
 
-_Warning: this project is not production ready, API might change without notice._
-
-[![](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra&c=1)
-
-**Nextra** is a [Next.js](https://nextjs.org) and [MDX](https://mdxjs.com) powered, no-code site generator.
-
-![](/public/demo.png)
+This repo holds the content, config and code for the documentation website for [`ko`](https://github.com/google/ko), at https://ko.build.
 
 ## Development
 
-The code of Nextra is under the [`core`](https://github.com/shuding/nextra/tree/core) branch.
+Update `.mdx` files to update content.
 
-## Themes
+To run locally, install Yarn and run `yarn dev`.
 
-- [nextra-theme-docs](https://github.com/vercel/swr-site) ([demo](https://swr.vercel.app))
-- [nextra-theme-blog](https://github.com/shuding/site) ([demo](https://shud.in))
+### Credits
 
----
+This site is powered by NextJS and [Nextra](https://nextra.vercel.app), deployed on [Vercel](https://vercel.app), created by [@shuding](https://github.com/shuding) and [@pacocoursey](https://github.com/pacocoursey) at [Vercel](https://vercel.com). Released under the MIT license.
 
-Created by [@shuding](https://github.com/shuding) and [@pacocoursey](https://github.com/pacocoursey) at [Vercel](https://vercel.com). Released under the MIT license.
+Content is licensed [CC-BY](https://creativecommons.org/licenses/by/4.0/).

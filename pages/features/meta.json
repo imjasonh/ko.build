@@ -1,7 +1,6 @@
 {
-  "mdx": "MDX",
-  "ssg": "Next.js SSG",
-  "i18n": "Next.js i18n",
-  "image": "Next.js Image",
-  "themes": "Themes"
+    "multi-platform": "Multi-platform Images" ,
+    "sboms": "SBOMs",
+    "k8s": "Kubernetes Integration",
+    "static-content": "Static Content"
 }
