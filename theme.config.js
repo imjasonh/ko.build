@@ -1,7 +1,7 @@
 export default {
   github: 'https://github.com/imjasonh/ko.build',
   docsRepositoryBase: 'https://github.com/imjasonh/ko.build/blob/main',
-  titleSuffix: ' – Nextra',
+  titleSuffix: ' – ko.build',
   logo: (
     <>
       <span className="mr-2 font-extrabold hidden md:inline"><code>ko</code></span>
@@ -61,5 +61,5 @@ export default {
   nextLinks: true,
   footer: true,
   footerEditLink: 'Edit this page on GitHub',
-  unstable_faviconGlyph: '👋',
+  unstable_faviconGlyph: '📦',
 }
