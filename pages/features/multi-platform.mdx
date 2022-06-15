@@ -6,3 +6,5 @@ To build and push an image for all platforms supported by the configured base im
 This will instruct `ko` to look up all the supported platforms in the base image, execute `GOOS=<os> GOARCH=<arch> GOARM=<variant> go build` for each platform, and produce a manifest list containing an image for each platform.
 
 You can also select specific platforms, for example, `--platform=linux/amd64,linux/arm64`.
+
+TODO: Document Windows, move up from FAQ

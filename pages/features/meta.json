@@ -2,5 +2,6 @@
     "multi-platform": "Multi-platform Images" ,
     "sboms": "SBOMs",
     "k8s": "Kubernetes Integration",
-    "static-assets": "Static Assets"
+    "static-assets": "Static Assets",
+    "build-cache": "Build Cache"
 }
