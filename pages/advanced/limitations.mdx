@@ -1,3 +1,7 @@
 # Limitations
 
-TODO: Document limitations
+`ko` works best when your application has no dependencies on the underlying image.
+
+This means `ko` is ideal when you don't require [cgo](https://pkg.go.dev/cmd/cgo), and builds ar executed with `CGO_ENABLED=0` by default.
+
+To install other OS packages, make those available in your [configured base image](./../configuration).
