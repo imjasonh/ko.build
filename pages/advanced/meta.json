@@ -1,5 +1,6 @@
 {
   "go-packages": "Go Packages",
   "limitations": "Limitations",
+  "migrating-from-dockerfile": "Migrating from Dockerfile",
   "faq": "FAQ"
 }
