@@ -2,8 +2,6 @@ import Slack from '@geist-ui/icons/slack'
 
 export default {
   github: 'https://github.com/imjasonh/ko.build',
-  projectChatLink: 'https://kubernetes.slack.com/C01T7DTP65S', // #ko-project on K8s Slack.
-  projectChatLinkIcon: <Slack />,
   docsRepositoryBase: 'https://github.com/imjasonh/ko.build/blob/main',
   titleSuffix: ' | ko.build',
   logo: (
