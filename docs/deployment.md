@@ -1,5 +1,3 @@
-import Callout from 'nextra-theme-docs/callout'
-
 # Deployment
 
 _See [Kubernetes Integration](./features/k8s) for information about deploying to Kubernetes._
@@ -16,15 +14,13 @@ docker run -p 8080:8080 $(ko build ./cmd/app)
 
 ---
 
-### [Cloud Run](https://cloud.google.com/run)
+### [Google Cloud Run](https://cloud.google.com/run)
 
 ```plaintext
 gcloud run deploy --image=$(ko build ./cmd/app)
 ```
 
-<Callout emoji="💡">
-**Note:** The image must be pushed to [Google Container Registry](https://cloud.google.com/container-registry) or [Artifact Registry](https://cloud.google.com/artifact-registry).
-</Callout>
+> 💡 **Note:** The image must be pushed to [Google Container Registry](https://cloud.google.com/container-registry) or [Artifact Registry](https://cloud.google.com/artifact-registry).
 
 ---
 
@@ -34,9 +30,7 @@ gcloud run deploy --image=$(ko build ./cmd/app)
 flyctl launch --image=$(ko build ./cmd/app)
 ```
 
-<Callout emoji="💡">
-**Note:** The image must be publicly available.
-</Callout>
+> 💡 **Note:** The image must be publicly available.
 
 ---
 
@@ -48,10 +42,8 @@ aws lambda update-function-code \
   --image-uri=$(ko build ./cmd/app)
 ```
 
-<Callout emoji="💡">
-**Note:** The image must be pushed to [ECR](https://aws.amazon.com/ecr/), based on the AWS provided base image, and use the [`aws-lambda-go`](https://github.com/aws/aws-lambda-go) framework.
+> 💡 **Note:** The image must be pushed to [ECR](https://aws.amazon.com/ecr/), based on the AWS provided base image, and use the [`aws-lambda-go`](https://github.com/aws/aws-lambda-go) framework.
 See [official docs](https://docs.aws.amazon.com/lambda/latest/dg/go-image.html) for more information.
-</Callout>
 
 ---
 
@@ -64,7 +56,5 @@ az containerapp update \
   --image $(ko build ./cmd/app)
 ```
 
-<Callout emoji="💡">
-**Note:** The image must be pushed to [ACR](https://azure.microsoft.com/services/container-registry/) or other registry service.
+> 💡 **Note:** The image must be pushed to [ACR](https://azure.microsoft.com/services/container-registry/) or other registry service.
 See [official docs](https://docs.microsoft.com/azure/container-apps/) for more information.
-</Callout>

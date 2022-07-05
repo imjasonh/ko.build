@@ -1,4 +1,4 @@
-# Migrating from `Dockerfile`
+# Migrating from Dockerfile
 
 If your `Dockerfile` looks like either of the examples in the [official tutorial for writing a Dockerfile to containerize a Go application](https://docs.docker.com/language/golang/build-images/), you can easily migrate to use `ko` instead.
 

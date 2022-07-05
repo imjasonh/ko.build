@@ -1,5 +1,3 @@
-import Callout from 'nextra-theme-docs/callout'
-
 # Configuration
 
 ## Basic Configuration
@@ -74,12 +72,10 @@ of the `ko` process.
 
 The `ldflags` default value is `[]`.
 
-<Callout emoji="💡">
-**Note:** Even though the configuration section is similar to the
+> 💡 **Note:** Even though the configuration section is similar to the
 [GoReleaser `builds` section](https://goreleaser.com/customization/build/),
 only the `env`, `flags` and `ldflags` fields are currently supported. Also, the
 templating support is currently limited to using environment variables only.
-</Callout>
 
 ## Naming Images
 

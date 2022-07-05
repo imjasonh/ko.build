@@ -1,4 +1,4 @@
-# Install `ko`
+# Installation
 
 ### Install from [GitHub Releases](https://github.com/google/ko/releases)
 

@@ -1,5 +1,3 @@
-import Callout from 'nextra-theme-docs/callout'
-
 # Get Started
 
 ## Setup 
@@ -41,8 +39,6 @@ $ ko build ./cmd/app
 registry.example.com/my-project/app-099ba5bcefdead87f92606265fb99ac0@sha256:6e398316742b7aa4a93161dce4a23bc5c545700b862b43347b941000b112ec3e
 ```
 
-<Callout emoji="💡">
-**Note**: Prior to v0.10, the command was called `ko publish` -- this is equivalent to `ko build`, and both commands will work and do the same thing.
-</Callout>
+> 💡 **Note**: Prior to v0.10, the command was called `ko publish` -- this is equivalent to `ko build`, and both commands will work and do the same thing.
 
 The executable binary that was built from `./cmd/app` is available in the image at `/ko-app/app` -- the binary name matches the base import path name -- and that binary is the image's entrypoint.

@@ -52,15 +52,7 @@ With this small change, running `ko resolve -f deployment.yaml` will instruct
 2. for each unique `ko://`-prefixed string, execute `ko build <importpath>` to
    build and push an image,
 3. replace `ko://`-prefixed string(s) in the input YAML with the fully-specified
-   image reference of the built image(s), for example:
-
-```yaml ...
-spec:
-  containers:
-    - name: my-app
-      image: registry.example.com/github.com/my-user/my-repo/cmd/app@sha256:deadb33f...
-```
-
+   image reference of the built image(s), as above.
 4. Print the resulting resolved YAML to stdout.
 
 The result can be redirected to a file, to distribute to others:

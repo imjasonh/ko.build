@@ -4,11 +4,12 @@ This repo holds the content, config and code for the documentation website for [
 
 ## Development
 
-Update `.mdx` files to update content.
+Update `.md` files to update content.
 
-Update `meta.json` files to update sidebar headers and ordering.
+Update `mkdocs.yml` to update sidebar headers and ordering.
 
-To run locally, install [Yarn](https://yarnpkg.com/) and run `yarn dev`.
+To run locally, [install `mkdocs` and `mkdocs-material`](https://squidfunk.github.io/mkdocs-material/getting-started/) and run `mkdocs serve`.
+
 This will start a local server on localhost:3000 that autoupdates as you make changes.
 
 ## Preview

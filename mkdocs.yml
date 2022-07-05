@@ -1,0 +1,32 @@
+site_name: 'ko: Easy Go Containers'
+
+theme:
+  name: material
+  logo: images/favicon-96x96.png
+  favicon: images/favicon-96x96.png
+  palette:
+    primary: light blue
+  features:
+    - navigation.sections
+
+extra:
+  version:
+    provider: mike
+
+nav:
+  - index.md
+  - install.md
+  - get-started.md
+  - configuration.md
+  - deployment.md
+  - Features:
+    - features/multi-platform.md
+    - features/sboms.md
+    - features/k8s.md
+    - features/static-assets.md
+    - features/build-cache.md
+  - Advanced: 
+    - advanced/go-packages.md
+    - advanced/limitations.md
+    - advanced/migrating-from-dockerfile.md
+    - advanced/faq.md

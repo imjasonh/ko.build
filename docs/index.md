@@ -1,11 +1,8 @@
-import Bleed from 'nextra-theme-docs/bleed'
-import Callout from 'nextra-theme-docs/callout'
-
-# `ko`: Easy Go Containers
+# Introduction
 
 `ko` makes building Go container images easy, fast, and secure by default.
 
-<Bleed>![ko example](../public/demo.png)</Bleed>
+![Demo of ko build](./images/demo.png)
 
 `ko` is a simple, fast container image builder for Go applications.
 
@@ -18,7 +15,7 @@ This can make it a good fit for lightweight CI/CD use cases.
 
 ---
 
-<Callout emoji="🏃">[Install `ko`](./install) and [get started](./get-started)!</Callout>
+> 🏃 [Install `ko`](./install) and [get started](./get-started)!
 
 ---
 

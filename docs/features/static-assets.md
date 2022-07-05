@@ -1,5 +1,3 @@
-import Callout from 'nextra-theme-docs/callout'
-
 # Static Assets
 
 `ko` can also bundle static assets into the images it produces.
@@ -31,10 +29,8 @@ func main() {
 You can simulate `ko`'s behavior outside of the container image by setting the
 `KO_DATA_PATH` environment variable yourself with `KO_DATA_PATH=cmd/app/kodata/ go run ./cmd/app`.
 
-<Callout emoji="💡">
-**Tip:** Symlinks in `kodata` are followed and included as well. For example,
+> 💡 **Tip:** Symlinks in `kodata` are followed and included as well. For example,
 you can include Git commit information in your image with `ln -s -r .git/HEAD ./cmd/app/kodata/`
-</Callout>
 
 Also note that `http.FileServer` will not serve the `Last-Modified` header
 (or validate `If-Modified-Since` request headers) because `ko` does not embed
