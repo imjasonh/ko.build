@@ -12,12 +12,12 @@ To run locally, [install `mkdocs` and `mkdocs-material`](https://squidfunk.githu
 
 This will start a local server on localhost:3000 that autoupdates as you make changes.
 
-## Preview
+## Deployment
 
-When you send a pull request, [Vercel](https://vercel.app) will build and publish a preview of your changes.
+When PRs are merged, the site will be rebuilt and published.
 
 ### Credits
 
-This site is powered by NextJS and [Nextra](https://nextra.vercel.app), deployed on [Vercel](https://vercel.app), created by [@shuding](https://github.com/shuding) and [@pacocoursey](https://github.com/pacocoursey) at [Vercel](https://vercel.com). The code and theme are released under the MIT license.
+This site is powered by [mkdocs-material](https://squidfunk.github.io/mkdocs-material). The code and theme are released under the MIT license.
 
 Content is licensed [CC-BY](https://creativecommons.org/licenses/by/4.0/).
