@@ -27,4 +27,4 @@ This can make it a good fit for lightweight CI/CD use cases.
 - [Sigstore](https://sigstore.dev)
 - [Shipwright](https://shipwright.io)
 
-[_Add your project here!_](https://github.com/imjasonh/ko.build/edit/main/pages/index.mdx)
+[_Add your project here!_](https://github.com/imjasonh/ko.build/edit/main/docs/index.md)
