@@ -1,4 +1,6 @@
 site_name: 'ko: Easy Go Containers'
+site_url: https://ko.build
+repo_url: https://github.com/google/ko
 
 theme:
   name: material
@@ -8,10 +10,6 @@ theme:
     primary: light blue
   features:
     - navigation.sections
-
-extra:
-  version:
-    provider: mike
 
 nav:
   - index.md
@@ -30,3 +28,14 @@ nav:
     - advanced/limitations.md
     - advanced/migrating-from-dockerfile.md
     - advanced/faq.md
+  - CLI Reference:
+    - 'ko': reference/ko.md
+    - 'ko apply': reference/ko_apply.md
+    - 'ko build': reference/ko_build.md
+    - 'ko create': reference/ko_create.md
+    - 'ko delete': reference/ko_delete.md
+    - 'ko deps': reference/ko_deps.md
+    - 'ko login': reference/ko_login.md
+    - 'ko resolve': reference/ko_resolve.md
+    - 'ko run': reference/ko_run.md
+    - 'ko version': reference/ko_version.md
