@@ -6,10 +6,9 @@ theme:
   name: material
   logo: images/favicon-96x96.png
   favicon: images/favicon-96x96.png
+  custom_dir: docs/custom/
   palette:
     primary: light blue
-  features:
-    - navigation.sections
 
 nav:
   - index.md
@@ -39,3 +38,4 @@ nav:
     - 'ko resolve': reference/ko_resolve.md
     - 'ko run': reference/ko_run.md
     - 'ko version': reference/ko_version.md
+  - Releases: "https://github.com/google/ko/releases"

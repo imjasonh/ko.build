@@ -1,3 +1,7 @@
+---
+ko_meta: true
+---
+
 # Introduction
 
 `ko` makes building Go container images easy, fast, and secure by default.
